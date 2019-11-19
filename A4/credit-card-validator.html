@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+
+<link rel="stylesheet" href="credit-card-validator.css">
+    <title>Credit Card Validator</title>
+  </head>
+  <body>
+
+    <h1>Credit Card Validator</h1>
+
+    <form name="Form1" id="form1">
+Please Enter Your Credit Card Number: <input id="qt1" name="CreditCard" type="text" value="">
+    </form>
+
+    <br>
+    <div class="center">
+
+
+      <p>
+        1. Credit card must be 16 digits long <br>
+        2. Credit card number may not contain all of the same numbers <br>
+        3. Credit card must have the last digit to be an even number <br>
+      </p>
+    </div>
+    <br>
+
+
+
+    <button id="button" name="Button" style="vertical-align:middle" onclick="validateCreditCard()"><span>Validate Credit Card</span></button>
+<!--return Mod10(document.Form1.CreditCard.value)-->
+
+<p id="demo"></p>
+<p id="demo2"></p>
+
+<div id="demo3"></div>
+    <img src="credit-card.jpg" alt="picture of a few credit cards">
+
+    <script src="credit-card-validator.js"></script>
+
+  </body>
+</html>

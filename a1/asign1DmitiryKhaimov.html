@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+
+<html>
+
+  <head>
+    
+    <style>
+		body {
+			background-image: url(fortune.jpg);
+			background-repeat: no-repeat;
+			background-size: cover;
+			color: antiquewhite;
+		}
+		
+		.center {
+		    margin: 0;
+  			position: absolute;
+  			top: 50%;
+  			left: 50%;
+  			-ms-transform: translate(-50%, -50%);
+  			transform: translate(-50%, -50%);
+		}
+		
+		p {
+			margin: 0;
+  			position: absolute;
+  			top: 50%;
+  			left: 50%;
+  			-ms-transform: translate(-50%, -50%);
+  			transform: translate(-50%, -50%);
+		}
+		
+		
+		
+	  </style>
+
+    <meta charset="utf-8">
+
+    <meta name="viewport" content="width=device-width">
+
+    <title>Fortune Teller</title>
+
+    <script type="text/javascript">
+		
+		
+
+    function showPrompt()
+
+    {
+
+      var numOfChildren = prompt("What is your number of children?");
+
+      var partName = prompt("What is your partner's name?");
+
+      var location = prompt("What is your location?");
+
+      var jobTitle = prompt("What is your job title?");
+
+
+      document.write("<p>You will be a ".fontcolor("antiquewhite") + jobTitle.fontcolor("antiquewhite") + " in ".fontcolor("antiquewhite") + location.fontcolor("antiquewhite") + ", and married to ".fontcolor("antiquewhite") + partName.fontcolor("antiquewhite") + " with ".fontcolor("antiquewhite") + numOfChildren.fontcolor("antiquewhite") + " kids.</p>".fontcolor("antiquewhite"));
+		
+		
+		
+	
+		document.body.style.backgroundImage = "url('fortune.jpg')";
+	document.body.style.backgroundRepeat = "no-repeat";
+		document.body.style.backgroundSize = "cover";
+		
+		
+		
+
+    }
+		
+		
+    </script>
+    
+
+  </head>
+
+  <body>
+  
+  <div class="center">
+   
+<h1>Fortune Teller</h1>
+
+    <h5>By: Dmitriy Khaimov</h5>
+
+    <input type="button" onclick="showPrompt()" value="Let me reveal your fortune!" />
+    </div>
+	
+  </body>
+
+</html>
+
+

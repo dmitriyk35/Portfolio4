@@ -1,0 +1,64 @@
+  .button {
+    display: inline-block;
+    border-radius: 8px;
+    background-color: lightgreen;
+    border: none;
+    color: #FFFFFF
+    text-align: center;
+    font-size: 28px;
+    padding: 5px;
+    width: 500px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+
+  img {
+    width: 400px;
+  }
+
+  .userInput {
+    width: 150px;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+
+
+  .button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+
+  .button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+
+  .button:hover span {
+    padding-right: 25px;
+  }
+
+  .button:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+
+  body {
+    background-color: teal;
+    image: url("comp_1.gif");
+  }

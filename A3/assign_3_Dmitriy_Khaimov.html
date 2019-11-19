@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>The Cash Register</title>
+    <link rel="stylesheet" href="stylesheet.css">
+  </head>
+  <body>
+    
+    <h1>Welcome to Our Online Store!</h1>
+
+    <form id="frm1" action="/action_page.php">
+      <table border="3">
+        <tr>
+          <td id="head">Item</td>
+          <td id="head">Price</td>
+          <td id="head">Quantity</td>
+        </tr>
+
+        <tr>
+          <td id="banana">Banana<img src="banana.jpg" width="30px" alt="banana icon"></td>
+          <td>$1.25</td>
+          <td><input  type="number" id="qt1" value="0"></td>
+        </tr>
+
+        <tr>
+          <td id="grapes">Grapes<img src="grapes.png" width="30px" alt="grapes icon"></td>
+          <td>$0.99</td>
+          <td><input type="number" id="qt2" value="0"></td>
+        </tr>
+
+        <tr>
+          <td id="t-shirt">T-shirt<img src="t-shirt.png" width="30px" alt="t-shirt icon"></td>
+          <td>$25.01</td>
+          <td><input type="number" id="qt3" value="0"></td>
+        </tr>
+
+        <tr>
+          <td id="apple">Apple<img src="apple.jpg" width="30px" alt="apple icon"></td>
+          <td>$0.60</td>
+          <td><input type="number" id="qt4" value="0"></td>
+        </tr>
+
+        <tr>
+          <td id="oranges">Oranges<img src="orange.png" width="30px" alt="orange icon"></td>
+          <td>$10.34</td>
+          <td><input type="number" id="qt5" value="0"></td>
+        </tr>
+
+        <tr>
+          <td id="protein-shake">Protein Shake<img src="protein-shake.png" width="30px" alt="protein shake icon"></td>
+          <td>$22.36</td>
+          <td><input type="number" id="qt6" value="0"></td>
+        </tr>
+
+      </table>
+
+    </form>
+
+<br>
+
+    <button class="button" onclick="cashRegister()">Calculate Total</button> <img src="shopping-cart2.jpg" width="60px" alt="shopping-cart icon">
+
+    <p id="demo"></p>
+    
+     <p id="demo2"></p>
+
+<script type="text/javascript" src="script.js"></script>
+
+  </body>
+</html>
