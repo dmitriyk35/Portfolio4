@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Postcard Generator</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Boogaloo|Open+Sans:300,400|Oswald:700">
+	<link rel="stylesheet" href="css/main2.css">
+	<link rel="stylesheet" href="css/main1.css">
+	<link rel="stylesheet" href="css/main.css">
+<link rel="stylesheet" href="css/style1.css">
+</head>
+<body onload="run=setInterval('changeAd()', 900);">
+
+
+
+</header>
+
+<p id="demo"></p>
+
+<div class="hero">
+    	<script type="text/javascript">
+	var run;
+	var curImage = 1;
+	function changeAd() {
+		switch (curImage) {
+		case 1:
+			document.images[0].src = "imgown/banner2.jpg";
+			curImage = 2;
+			break;
+		case 2:
+			document.images[0].src = "imgown/porsche_banner.jpg";
+			curImage = 3;
+			break;
+		case 3:
+			document.images[0].src = "imgown/banner3.jpg";
+			curImage = 4;
+			break;
+		case 4:
+			document.images[0].src = "imgown/banner4.jpg";
+			curImage = 5;
+			break;
+		case 5:
+			document.images[0].src = "imgown/banner5.jpg";
+			curImage = 1;
+			break;
+		}
+	}
+</script>
+
+	<h1 id="let1">National Exotic Car Postcard Showcase</h1>
+	<p id="let2">Promoting exotic cars for car lovers.</p>
+	<img src="imgown/banner2.jpg" alt="Exotic Cars Logo" height="400" width="1400">
+</div>
+
+<main role="main">
+	<div class="content-wrapper">
+		<p id="press-quote">National Exotic Cars is by far the most significant car lover place of the decade. — New York Times</p>
+		<p>The Lamborghini Miura, produced from 1966–1973, is often said to be the first supercar. By the 1970s and 1980s the term was in regular use, if not precisely defined. One interpretation up until the 1990s was to use it for mid-engine two-seat cars with at least eight cylinders (but typically a V12 engine), a power output of at least 400 bhp (298 kW) and a top speed of at least 180 mph (290 km/h). Other interpretations state that "it must be very fast, with sporting handling to match", "it should be sleek and eye-catching" and its price should be "one in a rarefied atmosphere of its own" or regard exclusivity (i.e. limited production volumes) as an important characteristic. If you’re interested in starting a National Exotic Car in your local community, please <a href="#">contact&nbsp;us</a>.</p>
+		<h2>Our History</h2>
+		<figure>
+			<img src="imgown/aston.jpg" alt="Aston Martin Car">
+			<figcaption>Aston Martin</figcaption>
+		</figure>
+		<p>National Exotic Car began in 1938 when our founder, William Dozer, was fired from his job for taking a siesta during work hours at a Baltimore factory. William realized that siestas are a fundamental human right, so he organized a strike at the factory. The strike was a success. After the successful strike, William Dozer started National Exotic Car with the goal of implementing similar policies across the United States. Today National Exotic Car operates out of Washington, D.C. with local chapters in all 50 states, advocating for nice cars in all spheres of life.</p>
+	</div>
+</main>
+
+<div class="outer-wrapper">
+	<header class="clearfix">
+		<h1>Car Facts</h1>
+		<select id="state-list">
+			<option value="mdx">Choose a Car</option>
+			<option value="ac">Acura</option>
+			<option value="am">Aston Martin</option>
+			<option value="au">Audi</option>
+			<option value="be">Bentley</option>
+			<option value="bmw">BMW</option>
+			<option value="bu">Bugatti</option>
+			<option value="bk">Buick</option>
+			<option value="ca">Cadillac</option>
+			<option value="ch">Chevy</option>
+			<option value="chr">Chrysler</option>
+			<option value="do">Dodge</option>
+			<option value="fe">Ferrari</option>
+			<option value="fi">FIAT</option>
+			<option value="fo">Ford</option>
+			<option value="ge">Genesis</option>
+			<option value="gmc">GMC</option>
+			<!--<option value="ho">Honda</option>
+			<option value="hu">Hummer</option>
+			<option value="hy">Hyundai</option>
+			<option value="in">Infiniti</option>
+			<option value="ja">Jaguar</option>
+			<option value="je">Jeep</option>
+			<option value="ki">Kia</option>
+			<option value="la">Lamborghini</option>
+			<option value="lr">Land Rover</option>
+			<option value="le">Lexus</option>
+			<option value="li">Lincoln</option>
+			<option value="lo">Lotus</option>
+			<option value="ma">Maserati</option>
+			<option value="my">Maybach</option>
+			<option value="mz">Mazda</option>
+			<option value="mc">McLaren</option>
+			<option value="mb">Mercedez-Benz</option>
+			<option value="me">Mercury</option>
+			<option value="mi">MINI</option>
+			<option value="mt">Mitsubishi</option>
+			<option value="ni">Nissan</option>
+			<option value="ol">Oldsmobile</option>
+			<option value="po">Pontiac</option>
+			<option value="pe">Porshe</option>
+			<option value="ra">RAM</option>
+			<option value="rr">Rolls-Royce</option>
+			<option value="sa">Saab</option>
+			<option value="sl">Saleen</option>
+			<option value="sn">Saturn</option>
+			<option value="sc">Scion</option>
+			<option value="sm">Smart</option>
+			<option value="su">Subara</option>
+			<option value="sz">Suzuki</option>
+			<option value="te">Tesla</option>
+			<option value="vo">Volvo</option> -->
+		</select>
+	</header>
+
+	<div class="main clearfix">
+		<div class="img-holder">
+			<div>
+				<img id="info-pic" src="imgown/mdx.jpg" alt="Acura MDX" width="300" height="250">
+				<p id="info-name">Acura</p>
+			</div>
+		</div>
+		<div class="info-holder">
+			<p><strong>Body Style: </strong><span id="info-abbreviation">MDX</span></p>
+			<p><strong>Fuel Efficiency: </strong><span id="info-capitol">28 MPG Combined</span></p>
+			<p><strong>Price: </strong><span id="info-population">$25,900</span></p>
+			<p><strong>Year: </strong><span id="info-statehood">1986</span></p>
+			<p><strong>Headquarters: </strong><span id="info-mammal">  Minato, Tokyo, Japan</span></p>
+			<p><strong>Founder: </strong><span id="info-bird">Honda Motor Company</span></p>
+		</div>
+	</div>
+</div>
+<div class="outer-wrapper">
+	<div class="content-wrapper">
+		<header>
+			<h1>Postcard Generator</h1>
+			<p class="subtitle">Generate Postcards of Exotic Cars</p>
+		</header>
+		<main role="main">
+			<div class="first step">
+				<h2>1. Choose a Car</h2>
+				<select name="states" id="states">
+					<option selected disabled value="empty-state">Acura</option>
+			<option value="ac">Acura</option>
+			<option value="am">Aston Martin</option>
+			<option value="au">Audi</option>
+			<option value="be">Bentley</option>
+			<option value="bmw">BMW</option>
+			<option value="bu">Bugatti</option>
+			<option value="bk">Buick</option>
+			<option value="ca">Cadillac</option>
+			<option value="ch">Chevy</option>
+			<option value="chr">Chrysler</option>
+			<option value="do">Dodge</option>
+			<option value="fe">Ferrari</option>
+			<option value="fi">FIAT</option>
+			<option value="fo">Ford</option>
+			<option value="ge">Genesis</option>
+			<option value="gmc">GMC</option>
+			<!--<option value="ho">Honda</option>
+			<option value="hu">Hummer</option>
+			<option value="hy">Hyundai</option>
+			<option value="in">Infiniti</option>
+			<option value="ja">Jaguar</option>
+			<option value="je">Jeep</option>
+			<option value="ki">Kia</option>
+			<option value="la">Lamborghini</option>
+			<option value="lr">Land Rover</option>
+			<option value="le">Lexus</option>
+			<option value="li">Lincoln</option>
+			<option value="lo">Lotus</option>
+			<option value="ma">Maserati</option>
+			<option value="my">Maybach</option>
+			<option value="mz">Mazda</option>
+			<option value="mc">McLaren</option>
+			<option value="mb">Mercedez-Benz</option>
+			<option value="me">Mercury</option>
+			<option value="mi">MINI</option>
+			<option value="mt">Mitsubishi</option>
+			<option value="ni">Nissan</option>
+			<option value="ol">Oldsmobile</option>
+			<option value="po">Pontiac</option>
+			<option value="pe">Porshe</option>
+			<option value="ra">RAM</option>
+			<option value="rr">Rolls-Royce</option>
+			<option value="sa">Saab</option>
+			<option value="sl">Saleen</option>
+			<option value="sn">Saturn</option>
+			<option value="sc">Scion</option>
+			<option value="sm">Smart</option>
+			<option value="su">Subara</option>
+			<option value="sz">Suzuki</option>
+			<option value="te">Tesla</option>
+			<option value="vo">Volvo</option> -->
+				</select>
+			</div>
+			<div class="second step">
+				<h2>2. Enjoy Your Postcard!</h2>
+				<div id="postcard">
+					<p id="greeting">To Generate a Postcard</p>
+					<p id="state-heading">Choose a Car</p>
+				</div>
+			</div>
+		</main>
+	</div>
+</div>
+<script src="js/state-data1.js"></script>
+<script>
+	document.getElementById('state-list').onchange = function() {
+		var selected = this.value;
+		document.getElementById('info-pic').src= 'imgown/'+selected+'.jpg';
+		document.getElementById('info-name').textContent = stateData[this.value].name;
+		document.getElementById('info-abbreviation').textContent = stateData[this.value].body;
+		document.getElementById('info-capitol').textContent = stateData[this.value].mpg;
+		document.getElementById('info-population').textContent = stateData[this.value].price;
+		document.getElementById('info-statehood').textContent = stateData[this.value].year;
+		document.getElementById('info-mammal').textContent = stateData[this.value].head;
+		document.getElementById('info-bird').textContent = stateData[this.value].founder;
+	};
+</script>
+<footer>
+	<p>Copyright © National Exotic Car</p>
+</footer>
+
+<script>
+	var quotesArray = [
+		'National Exotic Car is by far the most significant cultural force of the decade. — New York Times',
+		'These days sleeping at your desk is not just acceptable, it’s encouraged. — The Atlantic',
+		'National Exotic Car has changed the way people think about cars, on a grand scale. — Washington Post',
+		'Happiness increased 200% since National Exotic Car began. — National Science Review',
+		'National Exotic Car has ushered in a new era of sleep. — USA Today',
+		'Not surprisingly, more cars means more productivity. — Wall Street Journal',
+		'National Exotic Car is doing the hard work of helping people get the cars they need. — U.S. News'
+	];
+	var randomNumber = Math.floor(Math.random()*quotesArray.length);
+	document.getElementById('press-quote').textContent = '“' + quotesArray[randomNumber].split(' — ')[0] + '” — ' + quotesArray[randomNumber].split(' — ')[1];
+	//console.log( 	quotesArray[randomNumber].split(' — ')[0] );
+</script>
+<div class="container">
+	<h1>Interest in Finding More Info Application</h1>
+	<p>Thank you so much for your interest in National Exotic Car! Please fill out the brief form below to give us a little information about which cars you are looking to learn more about. One of our co-ordinators will contact you via email or phone with seven days to provide with the information.</p>
+	<div class="form-container">
+		<form id="vol-form" action="process.html">
+			<div class="form-section">
+				<label for="first-name">First Name:</label>
+				<input id="first-name" name="first-name" type="text">
+			</div>
+			<div class="form-section">
+				<label for="last-name">Last Name:</label>
+				<input id="last-name" name="last-name" type="text">
+			</div>
+			<div class="form-section">
+				<label for="email">Email:</label>
+				<input id="email" name="email" type="email">
+			</div>
+			<div class="form-section">
+				<label for="phone">Phone:</label>
+				<input id="phone" name="phone" type="tel">
+			</div>
+			<div class="form-section">
+				<label for="prev-vol">Specific Car:</label>
+				<input id="prev-vol" name="prev-vol" type="text">
+			</div>
+			<div class="form-section">
+				<label for="from-year" class="from-label">From:</label>
+				<select id="from-year" name="from-year">
+					<option value="blank"></option>
+					<option value="1999">Before 2000</option>
+					<option value="2000">2000</option>
+					<option value="2001">2001</option>
+					<option value="2002">2002</option>
+					<option value="2003">2003</option>
+					<option value="2004">2004</option>
+					<option value="2005">2005</option>
+					<option value="2006">2006</option>
+					<option value="2007">2007</option>
+					<option value="2008">2008</option>
+					<option value="2009">2009</option>
+					<option value="2010">2010</option>
+					<option value="2011">2011</option>
+					<option value="2012">2012</option>
+					<option value="2013">2013</option>
+					<option value="2014">2014</option>
+					<option value="2015">2015</option>
+					<option value="2016">2016</option>
+					<option value="2017">2017</option>
+				</select>
+				<label for="to-year" class="to-label">To:</label>
+				<select id="to-year" name="to-year">
+					<option value="blank"></option>
+					<option value="2000">2000</option>
+					<option value="2001">2001</option>
+					<option value="2002">2002</option>
+					<option value="2003">2003</option>
+					<option value="2004">2004</option>
+					<option value="2005">2005</option>
+					<option value="2006">2006</option>
+					<option value="2007">2007</option>
+					<option value="2008">2008</option>
+					<option value="2009">2009</option>
+					<option value="2010">2010</option>
+					<option value="2011">2011</option>
+					<option value="2012">2012</option>
+					<option value="2013">2013</option>
+					<option value="2014">2014</option>
+					<option value="2015">2015</option>
+					<option value="2016">2016</option>
+					<option value="2017">2017</option>
+				</select>
+			</div>
+			<input id="submit" type="submit" value="Submit" onClick="validateForm()">
+		</form>
+		<p id="demo"></p>
+	</div>
+</div>
+<footer>
+	<p>Made in NY <br>Copyright © Postcard Generator</p>
+</footer>
+
+<script>
+	var states = document.getElementById('states');
+
+	states.onchange = function() {
+		// console.log('state index: ' + states.selectedIndex);
+		// console.log('state name: ' + states.options[states.selectedIndex].text);
+		// console.log('img/' + states.value + '@2x.jpg');
+		document.getElementById('postcard').style.backgroundImage = 'url(imgown2/' + states.value + '@2x.jpg)';
+		document.getElementById('greeting').innerHTML = 'Greetings from';
+		document.getElementById('state-heading').innerHTML = states.options[states.selectedIndex].text;
+	}
+</script>
+
+</body>
+</html>
