@@ -185,6 +185,10 @@ nav.navbar-fixed-top .navbar-nav > li > a:not(.btn) {
 	color: #bbb;
 }
 
+.navicon {
+	width: 35px;
+}
+
 .icon-bar {
 	background: #bbb;
 }
