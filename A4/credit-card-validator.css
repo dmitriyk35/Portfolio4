@@ -18,6 +18,9 @@
     color: #FFFFFF;
     text-align: center;
     font-size: 28px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     padding: 5px;
     width: 500px;
     transition: all 0.5s;
@@ -25,7 +28,7 @@
     margin: 5px;
 
     position: absolute;
-    top: 30%;
+    top: 40%;
     left: 50%;
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
