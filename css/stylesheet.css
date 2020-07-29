@@ -547,6 +547,15 @@ section {
 	transition: background-image 0.6s linear 0.3s;
 }
 
+#resume2 {
+	background: #00a8ff url('../img/Updated Resume.docx (1)-page-002.jpg') no-repeat center center;
+	-webkit-background-size: cover;
+	background-size: contain;
+	height: 1500px;
+	-webkit-transition: background-image 0.6s linear 0.3s;
+	transition: background-image 0.6s linear 0.3s;
+}
+
 
 .owl-twitter i.icon {
 	font-size: 36px;
